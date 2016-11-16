@@ -19,7 +19,7 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
 	Mouse *m = [[Mouse alloc] init];
-	[m moveToCenter];
+	[m moveToLowBatteryOK];
 	[m click];
 }
 

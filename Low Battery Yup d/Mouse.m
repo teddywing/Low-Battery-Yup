@@ -26,15 +26,15 @@
 	CGDisplayMoveCursorToPoint(_current_display, point);
 }
 
-- (void)moveToCenter
+- (void)moveToLowBatteryOK
 {
 	CGPoint point;
 
 	size_t width = CGDisplayPixelsWide(_current_display);
 	size_t height = CGDisplayPixelsHigh(_current_display);
 
-	point.x = width / 2;
-	point.y = height / 2;
+	point.x = width / 2 + 182;
+	point.y = height / 2 - 116;
 
 	[self moveToPoint:point];
 }

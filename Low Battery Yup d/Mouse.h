@@ -14,7 +14,7 @@
 }
 
 - (void)moveToPoint:(CGPoint)point;
-- (void)moveToCenter;
+- (void)moveToLowBatteryOK;
 - (void)click;
 
 @end
