@@ -1,0 +1,3 @@
+[submodule "Low Battery Yup/ShortcutRecorder"]
+	path = Low Battery Yup/ShortcutRecorder
+	url = https://github.com/Kentzo/ShortcutRecorder.git
