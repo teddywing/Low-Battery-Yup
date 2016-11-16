@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Mouse.h"
 
 @implementation AppDelegate
 
@@ -17,7 +18,8 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-	// Insert code here to initialize your application
+	Mouse *m = [[Mouse alloc] init];
+	[m moveToCenter];
 }
 
 @end
