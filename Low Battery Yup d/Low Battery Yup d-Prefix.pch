@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Low Battery Yup d' target in the 'Low Battery Yup d' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif
