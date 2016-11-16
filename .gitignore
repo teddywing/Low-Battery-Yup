@@ -17,3 +17,5 @@ xcuserdata
 
 # Ignore binary release directory
 /Releases/
+
+/_private/
