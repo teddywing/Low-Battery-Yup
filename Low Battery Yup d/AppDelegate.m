@@ -20,6 +20,7 @@
 {
 	Mouse *m = [[Mouse alloc] init];
 	[m moveToCenter];
+	[m click];
 }
 
 @end

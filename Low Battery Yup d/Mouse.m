@@ -15,16 +15,12 @@
     self = [super init];
     if (self) {
         _current_display = CGMainDisplayID();
+		_cursor_position = CGPointMake(0, 0);
     }
     return self;
 }
 
-- (void)moveToPoint:(CGPoint)point
-{
-	CGDisplayMoveCursorToPoint(_current_display, point);
-}
-
-- (void)moveToCenter
+- (CGPoint)centerPoint
 {
 	CGPoint point;
 
@@ -34,11 +30,33 @@
 	point.x = width / 2;
 	point.y = height / 2;
 
+	return point;
+}
+
+- (void)moveToPoint:(CGPoint)point
+{
+	_cursor_position = point;
+	CGDisplayMoveCursorToPoint(_current_display, point);
+}
+
+- (void)moveToCenter
+{
+	CGPoint point = [self centerPoint];
 	[self moveToPoint:point];
+}
+
+void post_mouse_event (CGEventType type, CGMouseButton button, CGPoint point) {
+	CGEventSourceRef ref = CGEventSourceCreate(kCGEventSourceStatePrivate);
+	CGEventRef event = CGEventCreateMouseEvent(ref, type, point, button);
+	CGEventPost(kCGHIDEventTap, event);
+	CFRelease(event);
+	CFRelease(ref);
 }
 
 - (void)click
 {
+	post_mouse_event(kCGEventLeftMouseDown, kCGMouseButtonLeft, _cursor_position);
+	post_mouse_event(kCGEventLeftMouseUp, kCGMouseButtonLeft, _cursor_position);
 }
 
 @end
