@@ -20,7 +20,13 @@
     return self;
 }
 
-- (CGPoint)centerPoint
+- (void)moveToPoint:(CGPoint)point
+{
+	_cursor_position = point;
+	CGDisplayMoveCursorToPoint(_current_display, point);
+}
+
+- (void)moveToCenter
 {
 	CGPoint point;
 
@@ -30,18 +36,6 @@
 	point.x = width / 2;
 	point.y = height / 2;
 
-	return point;
-}
-
-- (void)moveToPoint:(CGPoint)point
-{
-	_cursor_position = point;
-	CGDisplayMoveCursorToPoint(_current_display, point);
-}
-
-- (void)moveToCenter
-{
-	CGPoint point = [self centerPoint];
 	[self moveToPoint:point];
 }
 

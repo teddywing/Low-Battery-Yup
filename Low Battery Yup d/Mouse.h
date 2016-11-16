@@ -13,7 +13,6 @@
 	CGPoint _cursor_position;
 }
 
-- (CGPoint)centerPoint;
 - (void)moveToPoint:(CGPoint)point;
 - (void)moveToCenter;
 - (void)click;
