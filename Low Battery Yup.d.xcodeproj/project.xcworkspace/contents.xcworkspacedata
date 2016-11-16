@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Low Battery Yup d.xcodeproj">
+      location = "self:Low Battery Yup.d.xcodeproj">
    </FileRef>
 </Workspace>
