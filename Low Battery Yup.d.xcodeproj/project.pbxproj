@@ -13,6 +13,12 @@
 		D18C94B31DDC33CF00E03F87 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D18C94B11DDC33CF00E03F87 /* Credits.rtf */; };
 		D18C94B61DDC33CF00E03F87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D18C94B51DDC33CF00E03F87 /* AppDelegate.m */; };
 		D18C94C51DDC355400E03F87 /* Mouse.m in Sources */ = {isa = PBXBuildFile; fileRef = D18C94C41DDC355400E03F87 /* Mouse.m */; };
+		D1F809E11DDC6AA0001671E9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D18C94A21DDC33CF00E03F87 /* Cocoa.framework */; };
+		D1F809E71DDC6AA0001671E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1F809E51DDC6AA0001671E9 /* InfoPlist.strings */; };
+		D1F809E91DDC6AA0001671E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F809E81DDC6AA0001671E9 /* main.m */; };
+		D1F809ED1DDC6AA0001671E9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D1F809EB1DDC6AA0001671E9 /* Credits.rtf */; };
+		D1F809F01DDC6AA0001671E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F809EF1DDC6AA0001671E9 /* AppDelegate.m */; };
+		D1F809F31DDC6AA0001671E9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1F809F11DDC6AA0001671E9 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +36,15 @@
 		D18C94B51DDC33CF00E03F87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D18C94C31DDC355400E03F87 /* Mouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mouse.h; sourceTree = "<group>"; };
 		D18C94C41DDC355400E03F87 /* Mouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mouse.m; sourceTree = "<group>"; };
+		D1F809DF1DDC6AA0001671E9 /* Low Battery Yup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Low Battery Yup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1F809E41DDC6AA0001671E9 /* Low Battery Yup-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Low Battery Yup-Info.plist"; sourceTree = "<group>"; };
+		D1F809E61DDC6AA0001671E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D1F809E81DDC6AA0001671E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1F809EA1DDC6AA0001671E9 /* Low Battery Yup-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Low Battery Yup-Prefix.pch"; sourceTree = "<group>"; };
+		D1F809EC1DDC6AA0001671E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D1F809EE1DDC6AA0001671E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D1F809EF1DDC6AA0001671E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D1F809F21DDC6AA0001671E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +56,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D1F809DC1DDC6AA0001671E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F809E11DDC6AA0001671E9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -48,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				D18C94A81DDC33CF00E03F87 /* Low Battery Yup d */,
+				D1F809E21DDC6AA0001671E9 /* Low Battery Yup */,
 				D18C94A11DDC33CF00E03F87 /* Frameworks */,
 				D18C949F1DDC33CF00E03F87 /* Products */,
 			);
@@ -57,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				D18C949E1DDC33CF00E03F87 /* Low Battery Yup.d.app */,
+				D1F809DF1DDC6AA0001671E9 /* Low Battery Yup.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,6 +129,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D1F809E21DDC6AA0001671E9 /* Low Battery Yup */ = {
+			isa = PBXGroup;
+			children = (
+				D1F809EE1DDC6AA0001671E9 /* AppDelegate.h */,
+				D1F809EF1DDC6AA0001671E9 /* AppDelegate.m */,
+				D1F809F11DDC6AA0001671E9 /* MainMenu.xib */,
+				D1F809E31DDC6AA0001671E9 /* Supporting Files */,
+			);
+			path = "Low Battery Yup";
+			sourceTree = "<group>";
+		};
+		D1F809E31DDC6AA0001671E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1F809E41DDC6AA0001671E9 /* Low Battery Yup-Info.plist */,
+				D1F809E51DDC6AA0001671E9 /* InfoPlist.strings */,
+				D1F809E81DDC6AA0001671E9 /* main.m */,
+				D1F809EA1DDC6AA0001671E9 /* Low Battery Yup-Prefix.pch */,
+				D1F809EB1DDC6AA0001671E9 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,6 +170,23 @@
 			name = "Low Battery Yup.d";
 			productName = "Low Battery Yup d";
 			productReference = D18C949E1DDC33CF00E03F87 /* Low Battery Yup.d.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1F809DE1DDC6AA0001671E9 /* Low Battery Yup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1F809F61DDC6AA0001671E9 /* Build configuration list for PBXNativeTarget "Low Battery Yup" */;
+			buildPhases = (
+				D1F809DB1DDC6AA0001671E9 /* Sources */,
+				D1F809DC1DDC6AA0001671E9 /* Frameworks */,
+				D1F809DD1DDC6AA0001671E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Low Battery Yup";
+			productName = "Low Battery Yup";
+			productReference = D1F809DF1DDC6AA0001671E9 /* Low Battery Yup.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -146,6 +211,7 @@
 			projectRoot = "";
 			targets = (
 				D18C949D1DDC33CF00E03F87 /* Low Battery Yup.d */,
+				D1F809DE1DDC6AA0001671E9 /* Low Battery Yup */,
 			);
 		};
 /* End PBXProject section */
@@ -160,6 +226,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D1F809DD1DDC6AA0001671E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F809E71DDC6AA0001671E9 /* InfoPlist.strings in Resources */,
+				D1F809ED1DDC6AA0001671E9 /* Credits.rtf in Resources */,
+				D1F809F31DDC6AA0001671E9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -170,6 +246,15 @@
 				D18C94AF1DDC33CF00E03F87 /* main.m in Sources */,
 				D18C94B61DDC33CF00E03F87 /* AppDelegate.m in Sources */,
 				D18C94C51DDC355400E03F87 /* Mouse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1F809DB1DDC6AA0001671E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F809E91DDC6AA0001671E9 /* main.m in Sources */,
+				D1F809F01DDC6AA0001671E9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +275,30 @@
 				D18C94B21DDC33CF00E03F87 /* en */,
 			);
 			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D1F809E51DDC6AA0001671E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1F809E61DDC6AA0001671E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D1F809EB1DDC6AA0001671E9 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1F809EC1DDC6AA0001671E9 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D1F809F11DDC6AA0001671E9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1F809F21DDC6AA0001671E9 /* en */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -270,6 +379,30 @@
 			};
 			name = Release;
 		};
+		D1F809F41DDC6AA0001671E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Low Battery Yup/Low Battery Yup-Prefix.pch";
+				INFOPLIST_FILE = "Low Battery Yup/Low Battery Yup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D1F809F51DDC6AA0001671E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Low Battery Yup/Low Battery Yup-Prefix.pch";
+				INFOPLIST_FILE = "Low Battery Yup/Low Battery Yup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -290,6 +423,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		D1F809F61DDC6AA0001671E9 /* Build configuration list for PBXNativeTarget "Low Battery Yup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1F809F41DDC6AA0001671E9 /* Debug */,
+				D1F809F51DDC6AA0001671E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
