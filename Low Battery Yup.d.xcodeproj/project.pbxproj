@@ -12,7 +12,6 @@
 		D18C94AF1DDC33CF00E03F87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D18C94AE1DDC33CF00E03F87 /* main.m */; };
 		D18C94B31DDC33CF00E03F87 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D18C94B11DDC33CF00E03F87 /* Credits.rtf */; };
 		D18C94B61DDC33CF00E03F87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D18C94B51DDC33CF00E03F87 /* AppDelegate.m */; };
-		D18C94B91DDC33CF00E03F87 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D18C94B71DDC33CF00E03F87 /* MainMenu.xib */; };
 		D18C94C51DDC355400E03F87 /* Mouse.m in Sources */ = {isa = PBXBuildFile; fileRef = D18C94C41DDC355400E03F87 /* Mouse.m */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +28,6 @@
 		D18C94B21DDC33CF00E03F87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		D18C94B41DDC33CF00E03F87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D18C94B51DDC33CF00E03F87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D18C94B81DDC33CF00E03F87 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D18C94C31DDC355400E03F87 /* Mouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mouse.h; sourceTree = "<group>"; };
 		D18C94C41DDC355400E03F87 /* Mouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mouse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,7 +87,6 @@
 				D18C94B51DDC33CF00E03F87 /* AppDelegate.m */,
 				D18C94C31DDC355400E03F87 /* Mouse.h */,
 				D18C94C41DDC355400E03F87 /* Mouse.m */,
-				D18C94B71DDC33CF00E03F87 /* MainMenu.xib */,
 				D18C94A91DDC33CF00E03F87 /* Supporting Files */,
 			);
 			path = "Low Battery Yup d";
@@ -160,7 +157,6 @@
 			files = (
 				D18C94AD1DDC33CF00E03F87 /* InfoPlist.strings in Resources */,
 				D18C94B31DDC33CF00E03F87 /* Credits.rtf in Resources */,
-				D18C94B91DDC33CF00E03F87 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,14 +190,6 @@
 				D18C94B21DDC33CF00E03F87 /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		D18C94B71DDC33CF00E03F87 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D18C94B81DDC33CF00E03F87 /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
