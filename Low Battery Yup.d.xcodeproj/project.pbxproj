@@ -13,6 +13,10 @@
 		D18C94B31DDC33CF00E03F87 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D18C94B11DDC33CF00E03F87 /* Credits.rtf */; };
 		D18C94B61DDC33CF00E03F87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D18C94B51DDC33CF00E03F87 /* AppDelegate.m */; };
 		D18C94C51DDC355400E03F87 /* Mouse.m in Sources */ = {isa = PBXBuildFile; fileRef = D18C94C41DDC355400E03F87 /* Mouse.m */; };
+		D195ADC41DDC6D8F00A53A18 /* PTHotKey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D195ADBE1DDC6D2000A53A18 /* PTHotKey.framework */; };
+		D195ADC51DDC6D8F00A53A18 /* ShortcutRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D195ADBC1DDC6D2000A53A18 /* ShortcutRecorder.framework */; };
+		D195ADCA1DDC6E9E00A53A18 /* ShortcutRecorder.framework in Resources */ = {isa = PBXBuildFile; fileRef = D195ADBC1DDC6D2000A53A18 /* ShortcutRecorder.framework */; };
+		D195ADCB1DDC6EA900A53A18 /* PTHotKey.framework in Resources */ = {isa = PBXBuildFile; fileRef = D195ADBE1DDC6D2000A53A18 /* PTHotKey.framework */; };
 		D1F809E11DDC6AA0001671E9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D18C94A21DDC33CF00E03F87 /* Cocoa.framework */; };
 		D1F809E71DDC6AA0001671E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1F809E51DDC6AA0001671E9 /* InfoPlist.strings */; };
 		D1F809E91DDC6AA0001671E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F809E81DDC6AA0001671E9 /* main.m */; };
@@ -20,6 +24,44 @@
 		D1F809F01DDC6AA0001671E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F809EF1DDC6AA0001671E9 /* AppDelegate.m */; };
 		D1F809F31DDC6AA0001671E9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1F809F11DDC6AA0001671E9 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D195ADBB1DDC6D2000A53A18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D195ADB11DDC6D2000A53A18 /* ShortcutRecorder.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 939837800DA42965007F53F3;
+			remoteInfo = ShortcutRecorder.framework;
+		};
+		D195ADBD1DDC6D2000A53A18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D195ADB11DDC6D2000A53A18 /* ShortcutRecorder.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E273122E1349EC9000A84433;
+			remoteInfo = PTHotKey.framework;
+		};
+		D195ADBF1DDC6D2000A53A18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D195ADB11DDC6D2000A53A18 /* ShortcutRecorder.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0D6B2468180304DE00CE1142;
+			remoteInfo = Demo;
+		};
+		D195ADC61DDC6E0A00A53A18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D195ADB11DDC6D2000A53A18 /* ShortcutRecorder.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9398377F0DA42965007F53F3;
+			remoteInfo = ShortcutRecorder.framework;
+		};
+		D195ADC81DDC6E0A00A53A18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D195ADB11DDC6D2000A53A18 /* ShortcutRecorder.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E273122D1349EC9000A84433;
+			remoteInfo = PTHotKey.framework;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D18C949E1DDC33CF00E03F87 /* Low Battery Yup.d.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Low Battery Yup.d.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +78,7 @@
 		D18C94B51DDC33CF00E03F87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D18C94C31DDC355400E03F87 /* Mouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mouse.h; sourceTree = "<group>"; };
 		D18C94C41DDC355400E03F87 /* Mouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mouse.m; sourceTree = "<group>"; };
+		D195ADB11DDC6D2000A53A18 /* ShortcutRecorder.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ShortcutRecorder.xcodeproj; path = ShortcutRecorder/ShortcutRecorder.xcodeproj; sourceTree = "<group>"; };
 		D1F809DF1DDC6AA0001671E9 /* Low Battery Yup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Low Battery Yup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F809E41DDC6AA0001671E9 /* Low Battery Yup-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Low Battery Yup-Info.plist"; sourceTree = "<group>"; };
 		D1F809E61DDC6AA0001671E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -61,6 +104,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1F809E11DDC6AA0001671E9 /* Cocoa.framework in Frameworks */,
+				D195ADC51DDC6D8F00A53A18 /* ShortcutRecorder.framework in Frameworks */,
+				D195ADC41DDC6D8F00A53A18 /* PTHotKey.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,9 +174,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D195ADB21DDC6D2000A53A18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D195ADBC1DDC6D2000A53A18 /* ShortcutRecorder.framework */,
+				D195ADBE1DDC6D2000A53A18 /* PTHotKey.framework */,
+				D195ADC01DDC6D2000A53A18 /* Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D1F809E21DDC6AA0001671E9 /* Low Battery Yup */ = {
 			isa = PBXGroup;
 			children = (
+				D195ADB11DDC6D2000A53A18 /* ShortcutRecorder.xcodeproj */,
 				D1F809EE1DDC6AA0001671E9 /* AppDelegate.h */,
 				D1F809EF1DDC6AA0001671E9 /* AppDelegate.m */,
 				D1F809F11DDC6AA0001671E9 /* MainMenu.xib */,
@@ -183,6 +239,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				D195ADC71DDC6E0A00A53A18 /* PBXTargetDependency */,
+				D195ADC91DDC6E0A00A53A18 /* PBXTargetDependency */,
 			);
 			name = "Low Battery Yup";
 			productName = "Low Battery Yup";
@@ -208,6 +266,12 @@
 			mainGroup = D18C94931DDC33CE00E03F87;
 			productRefGroup = D18C949F1DDC33CF00E03F87 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D195ADB21DDC6D2000A53A18 /* Products */;
+					ProjectRef = D195ADB11DDC6D2000A53A18 /* ShortcutRecorder.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D18C949D1DDC33CF00E03F87 /* Low Battery Yup.d */,
@@ -215,6 +279,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D195ADBC1DDC6D2000A53A18 /* ShortcutRecorder.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ShortcutRecorder.framework;
+			remoteRef = D195ADBB1DDC6D2000A53A18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D195ADBE1DDC6D2000A53A18 /* PTHotKey.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PTHotKey.framework;
+			remoteRef = D195ADBD1DDC6D2000A53A18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D195ADC01DDC6D2000A53A18 /* Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Demo.app;
+			remoteRef = D195ADBF1DDC6D2000A53A18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D18C949C1DDC33CF00E03F87 /* Resources */ = {
@@ -233,6 +321,8 @@
 				D1F809E71DDC6AA0001671E9 /* InfoPlist.strings in Resources */,
 				D1F809ED1DDC6AA0001671E9 /* Credits.rtf in Resources */,
 				D1F809F31DDC6AA0001671E9 /* MainMenu.xib in Resources */,
+				D195ADCA1DDC6E9E00A53A18 /* ShortcutRecorder.framework in Resources */,
+				D195ADCB1DDC6EA900A53A18 /* PTHotKey.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +349,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D195ADC71DDC6E0A00A53A18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ShortcutRecorder.framework;
+			targetProxy = D195ADC61DDC6E0A00A53A18 /* PBXContainerItemProxy */;
+		};
+		D195ADC91DDC6E0A00A53A18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PTHotKey.framework;
+			targetProxy = D195ADC81DDC6E0A00A53A18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D18C94AB1DDC33CF00E03F87 /* InfoPlist.strings */ = {
@@ -386,6 +489,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Low Battery Yup/Low Battery Yup-Prefix.pch";
 				INFOPLIST_FILE = "Low Battery Yup/Low Battery Yup-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -398,6 +502,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Low Battery Yup/Low Battery Yup-Prefix.pch";
 				INFOPLIST_FILE = "Low Battery Yup/Low Battery Yup-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -431,6 +536,7 @@
 				D1F809F51DDC6AA0001671E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
