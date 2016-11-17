@@ -13,6 +13,8 @@
 		D18C94B31DDC33CF00E03F87 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D18C94B11DDC33CF00E03F87 /* Credits.rtf */; };
 		D18C94B61DDC33CF00E03F87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D18C94B51DDC33CF00E03F87 /* AppDelegate.m */; };
 		D18C94C51DDC355400E03F87 /* Mouse.m in Sources */ = {isa = PBXBuildFile; fileRef = D18C94C41DDC355400E03F87 /* Mouse.m */; };
+		D195AE5F1DDC776000A53A18 /* MASShortcut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D195AE5A1DDC774300A53A18 /* MASShortcut.framework */; };
+		D195AE601DDC776F00A53A18 /* MASShortcut.framework in Resources */ = {isa = PBXBuildFile; fileRef = D195AE5A1DDC774300A53A18 /* MASShortcut.framework */; };
 		D1F809E11DDC6AA0001671E9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D18C94A21DDC33CF00E03F87 /* Cocoa.framework */; };
 		D1F809E71DDC6AA0001671E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1F809E51DDC6AA0001671E9 /* InfoPlist.strings */; };
 		D1F809E91DDC6AA0001671E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F809E81DDC6AA0001671E9 /* main.m */; };
@@ -20,6 +22,37 @@
 		D1F809F01DDC6AA0001671E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F809EF1DDC6AA0001671E9 /* AppDelegate.m */; };
 		D1F809F31DDC6AA0001671E9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1F809F11DDC6AA0001671E9 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D195AE591DDC774300A53A18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D195AE4F1DDC774200A53A18 /* MASShortcut.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0D827CD31990D4420010B8EF;
+			remoteInfo = MASShortcut;
+		};
+		D195AE5B1DDC774300A53A18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D195AE4F1DDC774200A53A18 /* MASShortcut.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0D827D8319910AFF0010B8EF;
+			remoteInfo = MASShortcutTests;
+		};
+		D195AE5D1DDC774300A53A18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D195AE4F1DDC774200A53A18 /* MASShortcut.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0D827D371990D5E70010B8EF;
+			remoteInfo = Demo;
+		};
+		D1D440581DDD9B50003721DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D195AE4F1DDC774200A53A18 /* MASShortcut.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D827CD21990D4420010B8EF;
+			remoteInfo = MASShortcut;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D18C949E1DDC33CF00E03F87 /* Low Battery Yup.d.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Low Battery Yup.d.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +69,7 @@
 		D18C94B51DDC33CF00E03F87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D18C94C31DDC355400E03F87 /* Mouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mouse.h; sourceTree = "<group>"; };
 		D18C94C41DDC355400E03F87 /* Mouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mouse.m; sourceTree = "<group>"; };
+		D195AE4F1DDC774200A53A18 /* MASShortcut.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MASShortcut.xcodeproj; path = MASShortcut/MASShortcut.xcodeproj; sourceTree = "<group>"; };
 		D1F809DF1DDC6AA0001671E9 /* Low Battery Yup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Low Battery Yup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F809E41DDC6AA0001671E9 /* Low Battery Yup-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Low Battery Yup-Info.plist"; sourceTree = "<group>"; };
 		D1F809E61DDC6AA0001671E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -60,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D195AE5F1DDC776000A53A18 /* MASShortcut.framework in Frameworks */,
 				D1F809E11DDC6AA0001671E9 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,9 +164,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D195AE501DDC774200A53A18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D195AE5A1DDC774300A53A18 /* MASShortcut.framework */,
+				D195AE5C1DDC774300A53A18 /* MASShortcutTests.xctest */,
+				D195AE5E1DDC774300A53A18 /* Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D1F809E21DDC6AA0001671E9 /* Low Battery Yup */ = {
 			isa = PBXGroup;
 			children = (
+				D195AE4F1DDC774200A53A18 /* MASShortcut.xcodeproj */,
 				D1F809EE1DDC6AA0001671E9 /* AppDelegate.h */,
 				D1F809EF1DDC6AA0001671E9 /* AppDelegate.m */,
 				D1F809F11DDC6AA0001671E9 /* MainMenu.xib */,
@@ -183,6 +229,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				D1D440591DDD9B50003721DE /* PBXTargetDependency */,
 			);
 			name = "Low Battery Yup";
 			productName = "Low Battery Yup";
@@ -204,10 +251,28 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				cs,
+				de,
+				ja,
+				es,
+				fr,
+				it,
+				ko,
+				nl,
+				pl,
+				ru,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = D18C94931DDC33CE00E03F87;
 			productRefGroup = D18C949F1DDC33CF00E03F87 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D195AE501DDC774200A53A18 /* Products */;
+					ProjectRef = D195AE4F1DDC774200A53A18 /* MASShortcut.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D18C949D1DDC33CF00E03F87 /* Low Battery Yup.d */,
@@ -215,6 +280,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D195AE5A1DDC774300A53A18 /* MASShortcut.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MASShortcut.framework;
+			remoteRef = D195AE591DDC774300A53A18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D195AE5C1DDC774300A53A18 /* MASShortcutTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MASShortcutTests.xctest;
+			remoteRef = D195AE5B1DDC774300A53A18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D195AE5E1DDC774300A53A18 /* Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Demo.app;
+			remoteRef = D195AE5D1DDC774300A53A18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D18C949C1DDC33CF00E03F87 /* Resources */ = {
@@ -233,6 +322,7 @@
 				D1F809E71DDC6AA0001671E9 /* InfoPlist.strings in Resources */,
 				D1F809ED1DDC6AA0001671E9 /* Credits.rtf in Resources */,
 				D1F809F31DDC6AA0001671E9 /* MainMenu.xib in Resources */,
+				D195AE601DDC776F00A53A18 /* MASShortcut.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +349,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1D440591DDD9B50003721DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MASShortcut;
+			targetProxy = D1D440581DDD9B50003721DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D18C94AB1DDC33CF00E03F87 /* InfoPlist.strings */ = {
@@ -386,6 +484,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Low Battery Yup/Low Battery Yup-Prefix.pch";
 				INFOPLIST_FILE = "Low Battery Yup/Low Battery Yup-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -431,6 +530,7 @@
 				D1F809F51DDC6AA0001671E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
