@@ -7,9 +7,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <MASShortcut/MASShortcutView.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
-
-@property (assign) IBOutlet NSWindow *window;
+@interface AppDelegate : NSObject <NSApplicationDelegate> {
+	IBOutlet NSWindow *window;
+	IBOutlet MASShortcutView *shortcut_view;
+}
 
 @end
