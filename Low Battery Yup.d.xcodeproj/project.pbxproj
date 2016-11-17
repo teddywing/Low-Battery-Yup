@@ -31,13 +31,6 @@
 			remoteGlobalIDString = 0D827CD31990D4420010B8EF;
 			remoteInfo = MASShortcut;
 		};
-		D195AE5B1DDC774300A53A18 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D195AE4F1DDC774200A53A18 /* MASShortcut.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0D827D8319910AFF0010B8EF;
-			remoteInfo = MASShortcutTests;
-		};
 		D195AE5D1DDC774300A53A18 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D195AE4F1DDC774200A53A18 /* MASShortcut.xcodeproj */;
@@ -168,7 +161,6 @@
 			isa = PBXGroup;
 			children = (
 				D195AE5A1DDC774300A53A18 /* MASShortcut.framework */,
-				D195AE5C1DDC774300A53A18 /* MASShortcutTests.xctest */,
 				D195AE5E1DDC774300A53A18 /* Demo.app */,
 			);
 			name = Products;
@@ -287,13 +279,6 @@
 			fileType = wrapper.framework;
 			path = MASShortcut.framework;
 			remoteRef = D195AE591DDC774300A53A18 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D195AE5C1DDC774300A53A18 /* MASShortcutTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = MASShortcutTests.xctest;
-			remoteRef = D195AE5B1DDC774300A53A18 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		D195AE5E1DDC774300A53A18 /* Demo.app */ = {
