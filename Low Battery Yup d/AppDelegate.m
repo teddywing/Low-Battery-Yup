@@ -21,6 +21,7 @@
 	Mouse *m = [[Mouse alloc] init];
 	[m moveToLowBatteryOK];
 	[m click];
+	[m release];
 }
 
 @end
