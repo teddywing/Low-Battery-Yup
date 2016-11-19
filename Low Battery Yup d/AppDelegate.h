@@ -10,6 +10,6 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
+- (void)dismissLowBatteryWarning:(NSEvent *)hotKeyEvent;
 
 @end

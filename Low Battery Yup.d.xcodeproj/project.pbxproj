@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D123F5A81DDF9D2400A27B7A /* DDHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D123F5A71DDF9D2400A27B7A /* DDHotKeyCenter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		D18C94A31DDC33CF00E03F87 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D18C94A21DDC33CF00E03F87 /* Cocoa.framework */; };
 		D18C94AD1DDC33CF00E03F87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D18C94AB1DDC33CF00E03F87 /* InfoPlist.strings */; };
 		D18C94AF1DDC33CF00E03F87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D18C94AE1DDC33CF00E03F87 /* main.m */; };
@@ -15,6 +16,8 @@
 		D18C94C51DDC355400E03F87 /* Mouse.m in Sources */ = {isa = PBXBuildFile; fileRef = D18C94C41DDC355400E03F87 /* Mouse.m */; };
 		D195AE5F1DDC776000A53A18 /* MASShortcut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D195AE5A1DDC774300A53A18 /* MASShortcut.framework */; };
 		D195AE601DDC776F00A53A18 /* MASShortcut.framework in Resources */ = {isa = PBXBuildFile; fileRef = D195AE5A1DDC774300A53A18 /* MASShortcut.framework */; };
+		D1A37AEE1DE0012C0022434D /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A37AED1DE0012C0022434D /* Carbon.framework */; };
+		D1A37AF11DE001770022434D /* DDHotKeyUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A37AF01DE001770022434D /* DDHotKeyUtilities.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		D1F809E11DDC6AA0001671E9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D18C94A21DDC33CF00E03F87 /* Cocoa.framework */; };
 		D1F809E71DDC6AA0001671E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1F809E51DDC6AA0001671E9 /* InfoPlist.strings */; };
 		D1F809E91DDC6AA0001671E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F809E81DDC6AA0001671E9 /* main.m */; };
@@ -48,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D123F5A61DDF9D2400A27B7A /* DDHotKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDHotKeyCenter.h; path = DDHotKey/DDHotKeyCenter.h; sourceTree = "<group>"; };
+		D123F5A71DDF9D2400A27B7A /* DDHotKeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDHotKeyCenter.m; path = DDHotKey/DDHotKeyCenter.m; sourceTree = "<group>"; };
 		D18C949E1DDC33CF00E03F87 /* Low Battery Yup.d.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Low Battery Yup.d.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D18C94A21DDC33CF00E03F87 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D18C94A51DDC33CF00E03F87 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -63,6 +68,9 @@
 		D18C94C31DDC355400E03F87 /* Mouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mouse.h; sourceTree = "<group>"; };
 		D18C94C41DDC355400E03F87 /* Mouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mouse.m; sourceTree = "<group>"; };
 		D195AE4F1DDC774200A53A18 /* MASShortcut.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MASShortcut.xcodeproj; path = MASShortcut/MASShortcut.xcodeproj; sourceTree = "<group>"; };
+		D1A37AED1DE0012C0022434D /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		D1A37AEF1DE001770022434D /* DDHotKeyUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDHotKeyUtilities.h; path = DDHotKey/DDHotKeyUtilities.h; sourceTree = "<group>"; };
+		D1A37AF01DE001770022434D /* DDHotKeyUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDHotKeyUtilities.m; path = DDHotKey/DDHotKeyUtilities.m; sourceTree = "<group>"; };
 		D1F809DF1DDC6AA0001671E9 /* Low Battery Yup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Low Battery Yup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F809E41DDC6AA0001671E9 /* Low Battery Yup-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Low Battery Yup-Info.plist"; sourceTree = "<group>"; };
 		D1F809E61DDC6AA0001671E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -79,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1A37AEE1DE0012C0022434D /* Carbon.framework in Frameworks */,
 				D18C94A31DDC33CF00E03F87 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,9 +104,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D123F5A91DDF9D2B00A27B7A /* DDHotKey */ = {
+			isa = PBXGroup;
+			children = (
+				D123F5A61DDF9D2400A27B7A /* DDHotKeyCenter.h */,
+				D123F5A71DDF9D2400A27B7A /* DDHotKeyCenter.m */,
+				D1A37AEF1DE001770022434D /* DDHotKeyUtilities.h */,
+				D1A37AF01DE001770022434D /* DDHotKeyUtilities.m */,
+			);
+			name = DDHotKey;
+			sourceTree = "<group>";
+		};
 		D18C94931DDC33CE00E03F87 = {
 			isa = PBXGroup;
 			children = (
+				D123F5A91DDF9D2B00A27B7A /* DDHotKey */,
 				D18C94A81DDC33CF00E03F87 /* Low Battery Yup d */,
 				D1F809E21DDC6AA0001671E9 /* Low Battery Yup */,
 				D18C94A11DDC33CF00E03F87 /* Frameworks */,
@@ -118,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				D18C94A21DDC33CF00E03F87 /* Cocoa.framework */,
+				D1A37AED1DE0012C0022434D /* Carbon.framework */,
 				D18C94A41DDC33CF00E03F87 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -321,6 +343,8 @@
 				D18C94AF1DDC33CF00E03F87 /* main.m in Sources */,
 				D18C94B61DDC33CF00E03F87 /* AppDelegate.m in Sources */,
 				D18C94C51DDC355400E03F87 /* Mouse.m in Sources */,
+				D123F5A81DDF9D2400A27B7A /* DDHotKeyCenter.m in Sources */,
+				D1A37AF11DE001770022434D /* DDHotKeyUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
