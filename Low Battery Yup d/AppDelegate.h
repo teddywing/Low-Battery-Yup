@@ -7,8 +7,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "Mouse.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate> {
+	Mouse *_mouse;
+}
 
 - (void)dismissLowBatteryWarning:(NSEvent *)hotKeyEvent;
 

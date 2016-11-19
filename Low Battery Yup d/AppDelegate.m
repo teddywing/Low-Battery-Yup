@@ -8,18 +8,20 @@
 
 #import "AppDelegate.h"
 #import "DDHotKeyCenter.h"
-#import "Mouse.h"
 #import <Carbon/Carbon.h>
 
 @implementation AppDelegate
 
 - (void)dealloc
 {
-    [super dealloc];
+	[_mouse release];
+	[super dealloc];
 }
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+	_mouse = [[Mouse alloc] init];
+
 	DDHotKeyCenter *hotkey_center = [DDHotKeyCenter sharedHotKeyCenter];
 	[hotkey_center registerHotKeyWithKeyCode:kVK_ANSI_0
 		modifierFlags:(NSCommandKeyMask | NSAlternateKeyMask | NSShiftKeyMask | NSControlKeyMask)
@@ -30,10 +32,8 @@
 
 - (void)dismissLowBatteryWarning:(NSEvent *)hotKeyEvent
 {
-	Mouse *m = [[Mouse alloc] init];
-	[m moveToLowBatteryOK];
-	[m click];
-	[m release];
+	[_mouse moveToLowBatteryOK];
+	[_mouse click];
 }
 
 @end
