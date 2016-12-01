@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "DDHotKeyCenter.h"
 #import <Carbon/Carbon.h>
+#import "Constants.h"
 
 @implementation AppDelegate
 
@@ -22,12 +23,17 @@
 {
 	_mouse = [[Mouse alloc] init];
 
-	DDHotKeyCenter *hotkey_center = [DDHotKeyCenter sharedHotKeyCenter];
-	[hotkey_center registerHotKeyWithKeyCode:kVK_ANSI_0
-		modifierFlags:(NSCommandKeyMask | NSAlternateKeyMask | NSShiftKeyMask | NSControlKeyMask)
-		target:self
-		action:@selector(dismissLowBatteryWarning:)
-		object:nil];
+	[[NSUserDefaults standardUserDefaults] addSuiteNamed:@"com.teddywing.Low-Battery-Yup"];
+	NSDictionary *shortcut = [[NSUserDefaults standardUserDefaults] objectForKey:kPreferenceGlobalShortcut];
+
+	if (shortcut) {
+		DDHotKeyCenter *hotkey_center = [DDHotKeyCenter sharedHotKeyCenter];
+		[hotkey_center registerHotKeyWithKeyCode:[[shortcut objectForKey:@"keyCode"] unsignedIntegerValue]
+			modifierFlags:[[shortcut objectForKey:@"modifierFlags"] unsignedIntegerValue]
+			target:self
+			action:@selector(dismissLowBatteryWarning:)
+			object:nil];
+	}
 }
 
 - (void)dismissLowBatteryWarning:(NSEvent *)hotKeyEvent
