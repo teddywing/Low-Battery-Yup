@@ -18,6 +18,11 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+	[self initializeShortcutView];
+}
+
+- (void)initializeShortcutView
+{
 	NSDictionary *saved_shortcut;
 	if ((saved_shortcut = [[NSUserDefaults standardUserDefaults] objectForKey:kPreferenceGlobalShortcut])) {
 		MASShortcut *shortcut = [MASShortcut
