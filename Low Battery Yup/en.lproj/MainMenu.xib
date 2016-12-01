@@ -1311,7 +1311,6 @@
 							<string key="NSFrame">{{84, 83}, {313, 19}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<string key="NSClassName">ShortcutView</string>
 						</object>
@@ -2017,11 +2016,11 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
-						<string key="label">shortcut_view</string>
+						<string key="label">_shortcut_view</string>
 						<reference key="source" ref="976324537"/>
 						<reference key="destination" ref="489226571"/>
 					</object>
-					<int key="connectionID">537</int>
+					<int key="connectionID">541</int>
 				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -3195,7 +3194,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">540</int>
+			<int key="maxID">541</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
