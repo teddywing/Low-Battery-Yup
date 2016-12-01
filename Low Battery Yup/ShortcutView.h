@@ -10,4 +10,6 @@
 
 @interface ShortcutView : MASShortcutView
 
+- (void)setShortcutValue:(MASShortcut *)shortcutValue;
+
 @end
