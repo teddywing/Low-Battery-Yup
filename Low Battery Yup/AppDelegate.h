@@ -13,6 +13,7 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate> {
 	IBOutlet NSWindow *window;
 	IBOutlet ShortcutView *_shortcut_view;
+	IBOutlet NSButton *_start_at_login;
 }
 
 @end
