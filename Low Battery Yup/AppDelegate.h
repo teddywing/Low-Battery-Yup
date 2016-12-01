@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <MASShortcut/MASShortcut.h>
 #import "ShortcutView.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate> {

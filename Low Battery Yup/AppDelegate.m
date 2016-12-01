@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+static NSString *const kPreferenceGlobalShortcut = @"GlobalShortcut";
+
 @implementation AppDelegate
 
 - (void)dealloc
@@ -17,7 +19,14 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-	
+	NSDictionary *saved_shortcut;
+	if ((saved_shortcut = [[NSUserDefaults standardUserDefaults] objectForKey:kPreferenceGlobalShortcut])) {
+		MASShortcut *shortcut = [MASShortcut
+			shortcutWithKeyCode:[[saved_shortcut objectForKey:@"keyCode"] unsignedIntegerValue]
+			modifierFlags:[[saved_shortcut objectForKey:@"modifierFlags"] unsignedIntegerValue]];
+
+		[_shortcut_view setShortcutValue:shortcut];
+	}
 }
 
 @end
