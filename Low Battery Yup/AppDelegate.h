@@ -7,15 +7,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import <MASShortcut/MASShortcutView.h>
-#import <MASShortcut/MASShortcutView+Bindings.h>
-#import <MASShortcut/MASShortcutBinder.h>
+#import "ShortcutView.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate> {
 	IBOutlet NSWindow *window;
-	IBOutlet MASShortcutView *_shortcut_view;
+	IBOutlet ShortcutView *_shortcut_view;
 }
-
-- (IBAction)logDefaults:(id)sender;
 
 @end
