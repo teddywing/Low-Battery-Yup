@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D15D90B71DF0465E001700CD /* ShortcutView.m in Sources */ = {isa = PBXBuildFile; fileRef = D15D90B61DF0465E001700CD /* ShortcutView.m */; };
 		D18C94A31DDC33CF00E03F87 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D18C94A21DDC33CF00E03F87 /* Cocoa.framework */; };
 		D18C94AD1DDC33CF00E03F87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D18C94AB1DDC33CF00E03F87 /* InfoPlist.strings */; };
 		D18C94AF1DDC33CF00E03F87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D18C94AE1DDC33CF00E03F87 /* main.m */; };
@@ -48,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D15D90B51DF0465E001700CD /* ShortcutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShortcutView.h; sourceTree = "<group>"; };
+		D15D90B61DF0465E001700CD /* ShortcutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShortcutView.m; sourceTree = "<group>"; };
 		D18C949E1DDC33CF00E03F87 /* Low Battery Yup.d.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Low Battery Yup.d.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D18C94A21DDC33CF00E03F87 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D18C94A51DDC33CF00E03F87 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -172,6 +175,8 @@
 				D195AE4F1DDC774200A53A18 /* MASShortcut.xcodeproj */,
 				D1F809EE1DDC6AA0001671E9 /* AppDelegate.h */,
 				D1F809EF1DDC6AA0001671E9 /* AppDelegate.m */,
+				D15D90B51DF0465E001700CD /* ShortcutView.h */,
+				D15D90B61DF0465E001700CD /* ShortcutView.m */,
 				D1F809F11DDC6AA0001671E9 /* MainMenu.xib */,
 				D1F809E31DDC6AA0001671E9 /* Supporting Files */,
 			);
@@ -330,6 +335,7 @@
 			files = (
 				D1F809E91DDC6AA0001671E9 /* main.m in Sources */,
 				D1F809F01DDC6AA0001671E9 /* AppDelegate.m in Sources */,
+				D15D90B71DF0465E001700CD /* ShortcutView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
