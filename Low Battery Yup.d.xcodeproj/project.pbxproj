@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		D123F5A81DDF9D2400A27B7A /* DDHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D123F5A71DDF9D2400A27B7A /* DDHotKeyCenter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		D15D90B71DF0465E001700CD /* ShortcutView.m in Sources */ = {isa = PBXBuildFile; fileRef = D15D90B61DF0465E001700CD /* ShortcutView.m */; };
 		D1871D071DE094AB00B8030D /* DDHotKeyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D1871D061DE094AB00B8030D /* DDHotKeyTextField.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		D1871D081DE094C200B8030D /* DDHotKeyUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A37AF01DE001770022434D /* DDHotKeyUtilities.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		D1871D091DE0955E00B8030D /* DDHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D123F5A71DDF9D2400A27B7A /* DDHotKeyCenter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		D1871D0A1DE0957C00B8030D /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A37AED1DE0012C0022434D /* Carbon.framework */; };
-		D15D90B71DF0465E001700CD /* ShortcutView.m in Sources */ = {isa = PBXBuildFile; fileRef = D15D90B61DF0465E001700CD /* ShortcutView.m */; };
 		D18C94A31DDC33CF00E03F87 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D18C94A21DDC33CF00E03F87 /* Cocoa.framework */; };
 		D18C94AD1DDC33CF00E03F87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D18C94AB1DDC33CF00E03F87 /* InfoPlist.strings */; };
 		D18C94AF1DDC33CF00E03F87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D18C94AE1DDC33CF00E03F87 /* main.m */; };
@@ -58,10 +58,10 @@
 /* Begin PBXFileReference section */
 		D123F5A61DDF9D2400A27B7A /* DDHotKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDHotKeyCenter.h; path = DDHotKey/DDHotKeyCenter.h; sourceTree = "<group>"; };
 		D123F5A71DDF9D2400A27B7A /* DDHotKeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDHotKeyCenter.m; path = DDHotKey/DDHotKeyCenter.m; sourceTree = "<group>"; };
-		D1871D051DE094AB00B8030D /* DDHotKeyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDHotKeyTextField.h; path = DDHotKey/DDHotKeyTextField.h; sourceTree = "<group>"; };
-		D1871D061DE094AB00B8030D /* DDHotKeyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDHotKeyTextField.m; path = DDHotKey/DDHotKeyTextField.m; sourceTree = "<group>"; };
 		D15D90B51DF0465E001700CD /* ShortcutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShortcutView.h; sourceTree = "<group>"; };
 		D15D90B61DF0465E001700CD /* ShortcutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShortcutView.m; sourceTree = "<group>"; };
+		D1871D051DE094AB00B8030D /* DDHotKeyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDHotKeyTextField.h; path = DDHotKey/DDHotKeyTextField.h; sourceTree = "<group>"; };
+		D1871D061DE094AB00B8030D /* DDHotKeyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDHotKeyTextField.m; path = DDHotKey/DDHotKeyTextField.m; sourceTree = "<group>"; };
 		D18C949E1DDC33CF00E03F87 /* Low Battery Yup.d.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Low Battery Yup.d.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D18C94A21DDC33CF00E03F87 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D18C94A51DDC33CF00E03F87 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -77,10 +77,10 @@
 		D18C94C31DDC355400E03F87 /* Mouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mouse.h; sourceTree = "<group>"; };
 		D18C94C41DDC355400E03F87 /* Mouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mouse.m; sourceTree = "<group>"; };
 		D195AE4F1DDC774200A53A18 /* MASShortcut.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MASShortcut.xcodeproj; path = MASShortcut/MASShortcut.xcodeproj; sourceTree = "<group>"; };
+		D19DF1F41DF09CF30094C50F /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		D1A37AED1DE0012C0022434D /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 		D1A37AEF1DE001770022434D /* DDHotKeyUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDHotKeyUtilities.h; path = DDHotKey/DDHotKeyUtilities.h; sourceTree = "<group>"; };
 		D1A37AF01DE001770022434D /* DDHotKeyUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDHotKeyUtilities.m; path = DDHotKey/DDHotKeyUtilities.m; sourceTree = "<group>"; };
-		D19DF1F41DF09CF30094C50F /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		D1F809DF1DDC6AA0001671E9 /* Low Battery Yup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Low Battery Yup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F809E41DDC6AA0001671E9 /* Low Battery Yup-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Low Battery Yup-Info.plist"; sourceTree = "<group>"; };
 		D1F809E61DDC6AA0001671E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
