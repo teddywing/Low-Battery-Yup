@@ -7,8 +7,7 @@
 //
 
 #import "ShortcutView.h"
-
-static NSString *const kPreferenceGlobalShortcut = @"GlobalShortcut";
+#import "Constants.h"
 
 @implementation ShortcutView
 
