@@ -8,12 +8,20 @@
 
 #import "ShortcutView.h"
 
+static NSString *const kPreferenceGlobalShortcut = @"GlobalShortcut";
+
 @implementation ShortcutView
 
 - (void)setShortcutValue:(MASShortcut *)shortcutValue
 {
-	 [super setShortcutValue:shortcutValue];
-	 NSLog(@"%@", shortcutValue);
+	[super setShortcutValue:shortcutValue];
+
+	NSDictionary *shortcut = [NSDictionary dictionaryWithObjectsAndKeys:
+		[NSNumber numberWithInteger:[shortcutValue keyCode]], @"keyCode",
+		[NSNumber numberWithInteger:[shortcutValue modifierFlags]], @"modifierFlags",
+		nil];
+
+	[[NSUserDefaults standardUserDefaults] setObject:shortcut forKey:kPreferenceGlobalShortcut];
 }
 
 @end
