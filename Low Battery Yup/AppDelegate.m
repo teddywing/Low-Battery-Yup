@@ -32,6 +32,7 @@
 {
 	[self initializeShortcutView];
 	[self performStartAtLogin:self];
+	[_launch_app setState:[_daemon_launcher isRunning]];
 }
 
 - (void)initializeShortcutView
@@ -50,10 +51,18 @@
 {
 	if ([_start_at_login state] == NSOnState) {
 		[_launchagent install];
-		[_daemon_launcher launch];
 	}
 	else {
 		[_launchagent uninstall];
+	}
+}
+
+- (IBAction)launchOrQuitDaemon:(id)sender
+{
+	if ([_launch_app state]) {
+		[_daemon_launcher launch];
+	}
+	else {
 		[_daemon_launcher quit];
 	}
 }
