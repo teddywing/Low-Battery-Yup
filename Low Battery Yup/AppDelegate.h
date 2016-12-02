@@ -16,4 +16,6 @@
 	IBOutlet NSButton *_start_at_login;
 }
 
+- (void)initializeShortcutView;
+
 @end
