@@ -1358,7 +1358,7 @@
 					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="489226571"/>
 				</object>
-				<string key="NSScreenRect">{{0, 0}, {2560, 1578}}</string>
+				<string key="NSScreenRect">{{0, 0}, {1440, 878}}</string>
 				<string key="NSMinSize">{480, 207}</string>
 				<string key="NSMaxSize">{480, 207}</string>
 				<bool key="NSWindowIsRestorable">YES</bool>
@@ -2067,6 +2067,14 @@
 						<reference key="destination" ref="1065652370"/>
 					</object>
 					<int key="connectionID">544</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">performStartAtLogin:</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="1065652370"/>
+					</object>
+					<int key="connectionID">545</int>
 				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -3256,13 +3264,24 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">544</int>
+			<int key="maxID">545</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<object class="IBPartialClassDescription">
 					<string key="className">AppDelegate</string>
 					<string key="superclassName">NSObject</string>
+					<object class="NSMutableDictionary" key="actions">
+						<string key="NS.key.0">performStartAtLogin:</string>
+						<string key="NS.object.0">id</string>
+					</object>
+					<object class="NSMutableDictionary" key="actionInfosByName">
+						<string key="NS.key.0">performStartAtLogin:</string>
+						<object class="IBActionInfo" key="NS.object.0">
+							<string key="name">performStartAtLogin:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</object>
 					<dictionary class="NSMutableDictionary" key="outlets">
 						<string key="_shortcut_view">ShortcutView</string>
 						<string key="_start_at_login">NSButton</string>

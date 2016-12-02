@@ -11,14 +11,25 @@
 
 @implementation AppDelegate
 
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        _launchagent = [[LaunchAgentManager alloc] init];
+    }
+    return self;
+}
+
 - (void)dealloc
 {
+	[_launchagent release];
     [super dealloc];
 }
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
 	[self initializeShortcutView];
+	[self performStartAtLogin:self];
 }
 
 - (void)initializeShortcutView
@@ -30,6 +41,16 @@
 			modifierFlags:[[saved_shortcut objectForKey:@"modifierFlags"] unsignedIntegerValue]];
 
 		[_shortcut_view setShortcutValue:shortcut];
+	}
+}
+
+- (IBAction)performStartAtLogin:(id)sender
+{
+	if ([_start_at_login state] == NSOnState) {
+		[_launchagent install];
+	}
+	else {
+		[_launchagent uninstall];
 	}
 }
 

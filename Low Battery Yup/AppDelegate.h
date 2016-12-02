@@ -9,13 +9,17 @@
 #import <Cocoa/Cocoa.h>
 #import <MASShortcut/MASShortcut.h>
 #import "ShortcutView.h"
+#import "LaunchAgentManager.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate> {
 	IBOutlet NSWindow *window;
 	IBOutlet ShortcutView *_shortcut_view;
 	IBOutlet NSButton *_start_at_login;
+
+	LaunchAgentManager *_launchagent;
 }
 
 - (void)initializeShortcutView;
+- (IBAction)performStartAtLogin:(id)sender;
 
 @end

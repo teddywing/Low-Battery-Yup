@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D123F5A81DDF9D2400A27B7A /* DDHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D123F5A71DDF9D2400A27B7A /* DDHotKeyCenter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		D131EB381DF1E8AB00504A74 /* com.teddywing.Low-Battery-Yup.StartAtLogin.plist in Resources */ = {isa = PBXBuildFile; fileRef = D131EB371DF1E8AB00504A74 /* com.teddywing.Low-Battery-Yup.StartAtLogin.plist */; };
 		D15D90B71DF0465E001700CD /* ShortcutView.m in Sources */ = {isa = PBXBuildFile; fileRef = D15D90B61DF0465E001700CD /* ShortcutView.m */; };
 		D1871D071DE094AB00B8030D /* DDHotKeyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D1871D061DE094AB00B8030D /* DDHotKeyTextField.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		D1871D081DE094C200B8030D /* DDHotKeyUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A37AF01DE001770022434D /* DDHotKeyUtilities.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
@@ -21,6 +22,8 @@
 		D18C94C51DDC355400E03F87 /* Mouse.m in Sources */ = {isa = PBXBuildFile; fileRef = D18C94C41DDC355400E03F87 /* Mouse.m */; };
 		D195AE5F1DDC776000A53A18 /* MASShortcut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D195AE5A1DDC774300A53A18 /* MASShortcut.framework */; };
 		D195AE601DDC776F00A53A18 /* MASShortcut.framework in Resources */ = {isa = PBXBuildFile; fileRef = D195AE5A1DDC774300A53A18 /* MASShortcut.framework */; };
+		D19DF20F1DF1AD3D0094C50F /* LaunchAgentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D19DF20E1DF1AD3D0094C50F /* LaunchAgentManager.m */; };
+		D19DF2121DF1AD480094C50F /* DaemonLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = D19DF2111DF1AD480094C50F /* DaemonLauncher.m */; };
 		D1A37AEE1DE0012C0022434D /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A37AED1DE0012C0022434D /* Carbon.framework */; };
 		D1A37AF11DE001770022434D /* DDHotKeyUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A37AF01DE001770022434D /* DDHotKeyUtilities.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		D1F809E11DDC6AA0001671E9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D18C94A21DDC33CF00E03F87 /* Cocoa.framework */; };
@@ -58,6 +61,7 @@
 /* Begin PBXFileReference section */
 		D123F5A61DDF9D2400A27B7A /* DDHotKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDHotKeyCenter.h; path = DDHotKey/DDHotKeyCenter.h; sourceTree = "<group>"; };
 		D123F5A71DDF9D2400A27B7A /* DDHotKeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDHotKeyCenter.m; path = DDHotKey/DDHotKeyCenter.m; sourceTree = "<group>"; };
+		D131EB371DF1E8AB00504A74 /* com.teddywing.Low-Battery-Yup.StartAtLogin.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "com.teddywing.Low-Battery-Yup.StartAtLogin.plist"; sourceTree = "<group>"; };
 		D15D90B51DF0465E001700CD /* ShortcutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShortcutView.h; sourceTree = "<group>"; };
 		D15D90B61DF0465E001700CD /* ShortcutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShortcutView.m; sourceTree = "<group>"; };
 		D1871D051DE094AB00B8030D /* DDHotKeyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDHotKeyTextField.h; path = DDHotKey/DDHotKeyTextField.h; sourceTree = "<group>"; };
@@ -78,6 +82,10 @@
 		D18C94C41DDC355400E03F87 /* Mouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mouse.m; sourceTree = "<group>"; };
 		D195AE4F1DDC774200A53A18 /* MASShortcut.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MASShortcut.xcodeproj; path = MASShortcut/MASShortcut.xcodeproj; sourceTree = "<group>"; };
 		D19DF1F41DF09CF30094C50F /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		D19DF20D1DF1AD3D0094C50F /* LaunchAgentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchAgentManager.h; sourceTree = "<group>"; };
+		D19DF20E1DF1AD3D0094C50F /* LaunchAgentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchAgentManager.m; sourceTree = "<group>"; };
+		D19DF2101DF1AD480094C50F /* DaemonLauncher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaemonLauncher.h; sourceTree = "<group>"; };
+		D19DF2111DF1AD480094C50F /* DaemonLauncher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaemonLauncher.m; sourceTree = "<group>"; };
 		D1A37AED1DE0012C0022434D /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 		D1A37AEF1DE001770022434D /* DDHotKeyUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDHotKeyUtilities.h; path = DDHotKey/DDHotKeyUtilities.h; sourceTree = "<group>"; };
 		D1A37AF01DE001770022434D /* DDHotKeyUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDHotKeyUtilities.m; path = DDHotKey/DDHotKeyUtilities.m; sourceTree = "<group>"; };
@@ -207,6 +215,10 @@
 				D195AE4F1DDC774200A53A18 /* MASShortcut.xcodeproj */,
 				D1F809EE1DDC6AA0001671E9 /* AppDelegate.h */,
 				D1F809EF1DDC6AA0001671E9 /* AppDelegate.m */,
+				D19DF20D1DF1AD3D0094C50F /* LaunchAgentManager.h */,
+				D19DF20E1DF1AD3D0094C50F /* LaunchAgentManager.m */,
+				D19DF2101DF1AD480094C50F /* DaemonLauncher.h */,
+				D19DF2111DF1AD480094C50F /* DaemonLauncher.m */,
 				D19DF1F41DF09CF30094C50F /* Constants.h */,
 				D15D90B51DF0465E001700CD /* ShortcutView.h */,
 				D15D90B61DF0465E001700CD /* ShortcutView.m */,
@@ -224,6 +236,7 @@
 				D1F809E81DDC6AA0001671E9 /* main.m */,
 				D1F809EA1DDC6AA0001671E9 /* Low Battery Yup-Prefix.pch */,
 				D1F809EB1DDC6AA0001671E9 /* Credits.rtf */,
+				D131EB371DF1E8AB00504A74 /* com.teddywing.Low-Battery-Yup.StartAtLogin.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -346,6 +359,7 @@
 				D1F809ED1DDC6AA0001671E9 /* Credits.rtf in Resources */,
 				D1F809F31DDC6AA0001671E9 /* MainMenu.xib in Resources */,
 				D195AE601DDC776F00A53A18 /* MASShortcut.framework in Resources */,
+				D131EB381DF1E8AB00504A74 /* com.teddywing.Low-Battery-Yup.StartAtLogin.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +388,8 @@
 				D1871D081DE094C200B8030D /* DDHotKeyUtilities.m in Sources */,
 				D1871D091DE0955E00B8030D /* DDHotKeyCenter.m in Sources */,
 				D15D90B71DF0465E001700CD /* ShortcutView.m in Sources */,
+				D19DF20F1DF1AD3D0094C50F /* LaunchAgentManager.m in Sources */,
+				D19DF2121DF1AD480094C50F /* DaemonLauncher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
