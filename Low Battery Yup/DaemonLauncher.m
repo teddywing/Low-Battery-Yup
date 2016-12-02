@@ -12,10 +12,6 @@
 
 - (BOOL)launch
 {
-	if ([self isRunning]) {
-		return NO;
-	}
-
 	NSURL *daemon_url = [[NSBundle mainBundle] URLForResource:@"Low Battery Yup.d" withExtension:@"app"];
 
 	NSError *error = nil;
@@ -35,10 +31,6 @@
 
 - (BOOL)quit
 {
-	if (![self isRunning]) {
-		return NO;
-	}
-
 	NSArray *applications = [NSRunningApplication
 		runningApplicationsWithBundleIdentifier:@"com.teddywing.Low-Battery-Yup-d"];
 
