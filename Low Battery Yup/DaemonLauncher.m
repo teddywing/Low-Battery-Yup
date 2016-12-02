@@ -42,4 +42,18 @@
 	return NO;
 }
 
+- (BOOL)isRunning
+{
+	NSArray *runningApplications = [[NSWorkspace sharedWorkspace] runningApplications];
+
+	for (int i = 0; i < [runningApplications count]; i++) {
+		if ([[[runningApplications objectAtIndex:i] bundleIdentifier]
+			isEqualToString:@"com.teddywing.Low-Battery-Yup-d"]) {
+			return YES;
+		}
+	}
+
+	return NO;
+}
+
 @end

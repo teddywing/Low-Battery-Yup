@@ -12,5 +12,6 @@
 
 - (BOOL)launch;
 - (BOOL)quit;
+- (BOOL)isRunning;
 
 @end
