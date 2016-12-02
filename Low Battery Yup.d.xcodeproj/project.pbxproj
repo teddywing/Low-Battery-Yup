@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D123F5A81DDF9D2400A27B7A /* DDHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D123F5A71DDF9D2400A27B7A /* DDHotKeyCenter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		D131EB381DF1E8AB00504A74 /* com.teddywing.Low-Battery-Yup.StartAtLogin.plist in Resources */ = {isa = PBXBuildFile; fileRef = D131EB371DF1E8AB00504A74 /* com.teddywing.Low-Battery-Yup.StartAtLogin.plist */; };
+		D131EB4B1DF203CD00504A74 /* Low Battery Yup.d.app in Resources */ = {isa = PBXBuildFile; fileRef = D18C949E1DDC33CF00E03F87 /* Low Battery Yup.d.app */; };
 		D15D90B71DF0465E001700CD /* ShortcutView.m in Sources */ = {isa = PBXBuildFile; fileRef = D15D90B61DF0465E001700CD /* ShortcutView.m */; };
 		D1871D071DE094AB00B8030D /* DDHotKeyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D1871D061DE094AB00B8030D /* DDHotKeyTextField.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		D1871D081DE094C200B8030D /* DDHotKeyUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A37AF01DE001770022434D /* DDHotKeyUtilities.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
@@ -35,6 +36,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D131EB451DF2034E00504A74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D18C94951DDC33CF00E03F87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D18C949D1DDC33CF00E03F87;
+			remoteInfo = "Low Battery Yup.d";
+		};
 		D195AE591DDC774300A53A18 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D195AE4F1DDC774200A53A18 /* MASShortcut.xcodeproj */;
@@ -272,6 +280,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				D131EB461DF2034E00504A74 /* PBXTargetDependency */,
 				D1D440591DDD9B50003721DE /* PBXTargetDependency */,
 			);
 			name = "Low Battery Yup";
@@ -355,6 +364,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D131EB4B1DF203CD00504A74 /* Low Battery Yup.d.app in Resources */,
 				D1F809E71DDC6AA0001671E9 /* InfoPlist.strings in Resources */,
 				D1F809ED1DDC6AA0001671E9 /* Credits.rtf in Resources */,
 				D1F809F31DDC6AA0001671E9 /* MainMenu.xib in Resources */,
@@ -396,6 +406,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D131EB461DF2034E00504A74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D18C949D1DDC33CF00E03F87 /* Low Battery Yup.d */;
+			targetProxy = D131EB451DF2034E00504A74 /* PBXContainerItemProxy */;
+		};
 		D1D440591DDD9B50003721DE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MASShortcut;
