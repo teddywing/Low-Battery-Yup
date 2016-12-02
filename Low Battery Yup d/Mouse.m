@@ -34,7 +34,8 @@
 	size_t height = CGDisplayPixelsHigh(_current_display);
 
 	point.x = width / 2 + 182;
-	point.y = height / 2 - 116;
+//	point.y = height / 2 - 116; // 1440x900  | 450 - 116 = 334 | 900  / 334 | 3340 / 900  = 3.7111
+	point.y = height / 2 - 292; // 2560x1600 | 800 - 292 = 508 | 1600 / 508 | 5080 / 1600 = 3.175
 
 	[self moveToPoint:point];
 }
