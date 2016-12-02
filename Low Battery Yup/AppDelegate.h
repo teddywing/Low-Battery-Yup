@@ -10,6 +10,7 @@
 #import <MASShortcut/MASShortcut.h>
 #import "ShortcutView.h"
 #import "LaunchAgentManager.h"
+#import "DaemonLauncher.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate> {
 	IBOutlet NSWindow *window;
@@ -17,6 +18,7 @@
 	IBOutlet NSButton *_start_at_login;
 
 	LaunchAgentManager *_launchagent;
+	DaemonLauncher *_daemon_launcher;
 }
 
 - (void)initializeShortcutView;

@@ -10,4 +10,7 @@
 
 @interface DaemonLauncher : NSObject
 
+- (BOOL)launch;
+- (BOOL)quit;
+
 @end

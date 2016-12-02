@@ -16,6 +16,7 @@
     self = [super init];
     if (self) {
         _launchagent = [[LaunchAgentManager alloc] init];
+		_daemon_launcher = [[DaemonLauncher alloc] init];
     }
     return self;
 }
@@ -23,6 +24,7 @@
 - (void)dealloc
 {
 	[_launchagent release];
+	[_daemon_launcher release];
     [super dealloc];
 }
 
@@ -48,9 +50,11 @@
 {
 	if ([_start_at_login state] == NSOnState) {
 		[_launchagent install];
+		[_daemon_launcher launch];
 	}
 	else {
 		[_launchagent uninstall];
+		[_daemon_launcher quit];
 	}
 }
 
