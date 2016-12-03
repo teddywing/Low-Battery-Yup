@@ -31,7 +31,6 @@
 		D1F809E11DDC6AA0001671E9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D18C94A21DDC33CF00E03F87 /* Cocoa.framework */; };
 		D1F809E71DDC6AA0001671E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1F809E51DDC6AA0001671E9 /* InfoPlist.strings */; };
 		D1F809E91DDC6AA0001671E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F809E81DDC6AA0001671E9 /* main.m */; };
-		D1F809ED1DDC6AA0001671E9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D1F809EB1DDC6AA0001671E9 /* Credits.rtf */; };
 		D1F809F01DDC6AA0001671E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F809EF1DDC6AA0001671E9 /* AppDelegate.m */; };
 		D1F809F31DDC6AA0001671E9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1F809F11DDC6AA0001671E9 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
@@ -118,7 +117,6 @@
 		D1F809E61DDC6AA0001671E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D1F809E81DDC6AA0001671E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D1F809EA1DDC6AA0001671E9 /* Low Battery Yup-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Low Battery Yup-Prefix.pch"; sourceTree = "<group>"; };
-		D1F809EC1DDC6AA0001671E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		D1F809EE1DDC6AA0001671E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1F809EF1DDC6AA0001671E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D1F809F21DDC6AA0001671E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -261,7 +259,6 @@
 				D1F809E51DDC6AA0001671E9 /* InfoPlist.strings */,
 				D1F809E81DDC6AA0001671E9 /* main.m */,
 				D1F809EA1DDC6AA0001671E9 /* Low Battery Yup-Prefix.pch */,
-				D1F809EB1DDC6AA0001671E9 /* Credits.rtf */,
 				D131EB371DF1E8AB00504A74 /* com.teddywing.Low-Battery-Yup.StartAtLogin.plist */,
 			);
 			name = "Supporting Files";
@@ -385,7 +382,6 @@
 			files = (
 				D131EB4B1DF203CD00504A74 /* Low Battery Yup.d.app in Resources */,
 				D1F809E71DDC6AA0001671E9 /* InfoPlist.strings in Resources */,
-				D1F809ED1DDC6AA0001671E9 /* Credits.rtf in Resources */,
 				D1F809F31DDC6AA0001671E9 /* MainMenu.xib in Resources */,
 				D131EB381DF1E8AB00504A74 /* com.teddywing.Low-Battery-Yup.StartAtLogin.plist in Resources */,
 			);
@@ -460,14 +456,6 @@
 				D1F809E61DDC6AA0001671E9 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		D1F809EB1DDC6AA0001671E9 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D1F809EC1DDC6AA0001671E9 /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 		D1F809F11DDC6AA0001671E9 /* MainMenu.xib */ = {
