@@ -35,6 +35,10 @@ the “Start at login” check box. Quit and trash Low Battery Yup and its
 `~/Library/Preferences` plist file.
 
 
+## Dev Info
+Developed in Xcode 4.5.2 on Mac OS X 10.8.
+
+
 ## License
 Copyright © 2016 Teddy Wing. Licensed under the GNU GPLv3+ (see the included
 COPYING file).
