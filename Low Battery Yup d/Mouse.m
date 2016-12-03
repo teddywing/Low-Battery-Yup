@@ -16,8 +16,16 @@
     if (self) {
         _current_display = CGMainDisplayID();
 		_cursor_position = CGPointMake(0, 0);
+		_fake_alert = [[FakeAlert alloc] init];
+		_fake_alert_frame = [_fake_alert frame];
     }
     return self;
+}
+
+- (void)dealloc
+{
+    [_fake_alert release];
+    [super dealloc];
 }
 
 - (void)moveToPoint:(CGPoint)point
@@ -28,13 +36,17 @@
 
 - (void)moveToLowBatteryOK
 {
+	if (_current_display != CGMainDisplayID()) {
+		_current_display = CGMainDisplayID();
+		_fake_alert_frame = [_fake_alert frame];
+	}
+
 	CGPoint point;
 
-	size_t width = CGDisplayPixelsWide(_current_display);
 	size_t height = CGDisplayPixelsHigh(_current_display);
 
-	point.x = width / 2 + 182;
-	point.y = height / 2 - 116;
+	point.x = _fake_alert_frame.origin.x + 420;
+	point.y = height - _fake_alert_frame.origin.y - 30;
 
 	[self moveToPoint:point];
 }

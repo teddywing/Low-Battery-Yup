@@ -11,6 +11,7 @@
 		D131EB381DF1E8AB00504A74 /* com.teddywing.Low-Battery-Yup.StartAtLogin.plist in Resources */ = {isa = PBXBuildFile; fileRef = D131EB371DF1E8AB00504A74 /* com.teddywing.Low-Battery-Yup.StartAtLogin.plist */; };
 		D131EB4B1DF203CD00504A74 /* Low Battery Yup.d.app in Resources */ = {isa = PBXBuildFile; fileRef = D18C949E1DDC33CF00E03F87 /* Low Battery Yup.d.app */; };
 		D15D90B71DF0465E001700CD /* ShortcutView.m in Sources */ = {isa = PBXBuildFile; fileRef = D15D90B61DF0465E001700CD /* ShortcutView.m */; };
+		D18378A11DF280E6005C5676 /* FakeAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = D18378A01DF280E6005C5676 /* FakeAlert.m */; };
 		D1871D071DE094AB00B8030D /* DDHotKeyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D1871D061DE094AB00B8030D /* DDHotKeyTextField.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		D1871D081DE094C200B8030D /* DDHotKeyUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A37AF01DE001770022434D /* DDHotKeyUtilities.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		D1871D091DE0955E00B8030D /* DDHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D123F5A71DDF9D2400A27B7A /* DDHotKeyCenter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
@@ -72,6 +73,8 @@
 		D131EB371DF1E8AB00504A74 /* com.teddywing.Low-Battery-Yup.StartAtLogin.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "com.teddywing.Low-Battery-Yup.StartAtLogin.plist"; sourceTree = "<group>"; };
 		D15D90B51DF0465E001700CD /* ShortcutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShortcutView.h; sourceTree = "<group>"; };
 		D15D90B61DF0465E001700CD /* ShortcutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShortcutView.m; sourceTree = "<group>"; };
+		D183789F1DF280E6005C5676 /* FakeAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeAlert.h; sourceTree = "<group>"; };
+		D18378A01DF280E6005C5676 /* FakeAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeAlert.m; sourceTree = "<group>"; };
 		D1871D051DE094AB00B8030D /* DDHotKeyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDHotKeyTextField.h; path = DDHotKey/DDHotKeyTextField.h; sourceTree = "<group>"; };
 		D1871D061DE094AB00B8030D /* DDHotKeyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDHotKeyTextField.m; path = DDHotKey/DDHotKeyTextField.m; sourceTree = "<group>"; };
 		D18C949E1DDC33CF00E03F87 /* Low Battery Yup.d.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Low Battery Yup.d.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -189,6 +192,8 @@
 			children = (
 				D18C94B41DDC33CF00E03F87 /* AppDelegate.h */,
 				D18C94B51DDC33CF00E03F87 /* AppDelegate.m */,
+				D183789F1DF280E6005C5676 /* FakeAlert.h */,
+				D18378A01DF280E6005C5676 /* FakeAlert.m */,
 				D18C94C31DDC355400E03F87 /* Mouse.h */,
 				D18C94C41DDC355400E03F87 /* Mouse.m */,
 				D18C94A91DDC33CF00E03F87 /* Supporting Files */,
@@ -385,6 +390,7 @@
 				D18C94C51DDC355400E03F87 /* Mouse.m in Sources */,
 				D123F5A81DDF9D2400A27B7A /* DDHotKeyCenter.m in Sources */,
 				D1A37AF11DE001770022434D /* DDHotKeyUtilities.m in Sources */,
+				D18378A11DF280E6005C5676 /* FakeAlert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
