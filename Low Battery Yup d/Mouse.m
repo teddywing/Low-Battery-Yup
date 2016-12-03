@@ -43,18 +43,10 @@
 
 	CGPoint point;
 
-	size_t width = CGDisplayPixelsWide(_current_display);
 	size_t height = CGDisplayPixelsHigh(_current_display);
 
-	point.x = width / 2 + 182;
-	point.y = height / 2 - 116; // 1440x900  | 450 - 116 = 334 | 900  / 334 | 3340 / 900  = 3.7111
-//	point.y = height / 2 - 292; // 2560x1600 | 800 - 292 = 508 | 1600 / 508 | 5080 / 1600 = 3.175
-
-	// x + 420
-	// y + 30
 	point.x = _fake_alert_frame.origin.x + 420;
 	point.y = height - _fake_alert_frame.origin.y - 30;
-	NSLog(@"%f, %f, %f, %f", _fake_alert_frame.origin.x, _fake_alert_frame.origin.y, _fake_alert_frame.size.width, _fake_alert_frame.size.height);
 
 	[self moveToPoint:point];
 }
